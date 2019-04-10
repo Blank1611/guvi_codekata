@@ -11,3 +11,4 @@ for i in range (a):
         print("Hello",end='\n')
     else:
         print("Hello",end='')
+    print("Hello")
