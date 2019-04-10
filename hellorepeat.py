@@ -7,4 +7,4 @@ Created on Wed Apr 10 19:58:09 2019
 
 a=int(input())
 for i in range (a):
-    print("Hello\n")
+    print("Hello")
