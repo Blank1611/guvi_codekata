@@ -7,7 +7,7 @@ Created on Sun Apr 14 11:56:33 2019
 
 a,b = map(int,input().split())
 c = list(map(int,input().split()))
-for i in range(b+1):
-    sum=0
+sum=0
+for i in range(b):
     sum += c[i]
 print(sum)
