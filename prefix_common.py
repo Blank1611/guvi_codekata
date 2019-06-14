@@ -4,22 +4,18 @@ Created on Sun Apr 14 13:36:07 2019
 
 @author: GRENTOR
 """
-def len_calc(string):
-    len_str = len(string)
-    return len_str
-def prefix_calc:
-    if 
+def common_prefix():
+    list=[]
+    for i in zip(*b):
+        if (i.count(i[0])==len(i)): 
+            list.append(i[0])
+        else:
+            break
+    print(''.join(list))
+a=int(input())
+b=[]
+for i in range(0,a):  
+    u=input()
+    b.append(u)
+common_prefix()
 
-
-
-n = int(input())
-list1 = []
-for i in range (n):
-    temp=input()
-    list1.append(temp)
-length=list(map(len_calc,list1))
-itr = min(length)
-dummy=""
-for i in range (itr):
-    if 
-    
