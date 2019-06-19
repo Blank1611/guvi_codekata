@@ -12,4 +12,7 @@ for i in range(a):
     if(i == b[i]):
         c.append(b[i])
 c.sort()
-print(*c)
+if len(c) == 0:
+    print(-1)
+else:
+    print(*c)
