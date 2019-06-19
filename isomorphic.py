@@ -5,7 +5,7 @@ Created on Wed Jun 19 22:47:46 2019
 @author: GRENTOR
 """
 
-a = ['aab', 'xyx']
+a = ['aaa', 'xxy']
 b = []
 f = list(zip(*a))
 s = 2*[set(f)]
