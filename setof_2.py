@@ -7,6 +7,7 @@ Created on Sat Jun 29 23:24:26 2019
 
 a,b,c = map(int, input().split())
 x = int(a/(b+c))
+print(x)
 if (b*x + c*x) == a:
     print("YES", end = "")
 else:
