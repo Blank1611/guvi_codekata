@@ -9,5 +9,5 @@ N,Q = map(int, input().split())
 liste = list(map(int, input().split()))
 for i in range(Q):
     a,b = map(int, input().split())
-    sa = lambda a,b: sum(liste[a-1:b+1])
+    sa = lambda a,b: sum(liste[a-1:b])
     print(sa(a,b))
