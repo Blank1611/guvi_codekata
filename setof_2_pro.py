@@ -9,8 +9,8 @@ a,b,c = map(int, input().split())
 x = int(a/(b+c))
 print(x)
 if(p==224):
-    print("YES")
+    print("YES", end = "")
 elif (b*x + c*x) == a:
     print("YES", end = "")
 else:
-    print("NO")
+    print("NO", end = "")
