@@ -6,4 +6,7 @@ Created on Mon Jul  8 23:20:41 2019
 """
 
 a = int(input())
-print(int((a//2)*(a-1)))
+if a%2==0:
+    print(int((a//2)*(a-1)))
+else:
+    print(int(a*(a//2)))
