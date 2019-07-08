@@ -12,4 +12,4 @@ def fibo(n):
 a = int(input())
 b = list(map(int, input().split()))
 result = list(map(fibo, b))
-print(sum(result))
+print(sum(result), end = "")
