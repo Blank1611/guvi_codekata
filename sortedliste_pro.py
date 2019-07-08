@@ -10,6 +10,7 @@ unsort_list = []
 for i in range(a):
     b = list(map(int,input().split()))
     unsort_list.extend(b)
-    
-sorted_list = sorted(unsort_list)
-print(" ".join([str(elem) for elem in sorted_list]),end="")
+unsort_list.sort()
+print(*unsort_list)
+#sorted_list = sorted(unsort_list)
+#print(" ".join([str(elem) for elem in sorted_list]),end="")
