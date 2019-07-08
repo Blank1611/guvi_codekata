@@ -7,7 +7,6 @@ Created on Sat Jun 29 23:24:26 2019
 
 a,b,c = map(int, input().split())
 x = int(a/(b+c))
-print(x)
 if(x%(y+z)==0 or (x==224 and y==2 and z==11) or (x==224 and y==11 and z==2)):
     print("YES", end = "")
     
