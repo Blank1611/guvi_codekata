@@ -19,4 +19,7 @@ def palindrome(ls):
                         pal_ls.append(t1)
     return (len(ls) - len(max(pal_ls, default = '')))
 inp = input().lower()
-print(palindrome(inp))
+if inp == inp[::-1]:
+    print(0)
+else:
+    print(palindrome(inp))
