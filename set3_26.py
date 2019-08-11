@@ -13,13 +13,11 @@ for i in range(len(a)):
     ts = []
     ts.append(st[0])
     for j in range(1, len(st)):
-        if (st[j]==st[-1]):
-            ts.append(st[j])
-        elif (st[j]>=st[j-1]):
+        if (st[j]>=st[j-1]):
             ts.append(st[j])
         else:
             
             break
     tse.append(ts)
+print(len(set(max(tse, key = len))))
 
-print(len(max(tse, key = len)))
