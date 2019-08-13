@@ -6,4 +6,4 @@ Created on Tue Aug 13 20:56:10 2019
 """
 
 a = input()
-print(a[a.index(max(a))::])
+print(a[a.index(max(a[1::], key = lambda x: a[0]<x))::])
