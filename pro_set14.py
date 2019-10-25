@@ -17,4 +17,3 @@ for i in range(q):
     sa = xor(liste[a-1:b])
     print(sa)
     
-#[el^=elem for elem in l[a-1:b]]
